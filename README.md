@@ -9,15 +9,16 @@ Write an application in java that parses a git repo and produces a report file (
 
 
 Assumptions:
-    Maven dependencies allowed
-    Files with no extension will get classified as filetype="NONE"
-    Files are UTF-8 encoded
-    Lines are treated as raw strings (ie a line containing only "\t" is NOT a tab and therefore not whitespace)
-    Files that don't evaluate to true from either Java.File.isFile() or .isDirectory() are ignored
-    If an IOException is throws during file processing, the application will continue processing and calculate its results as if that file didn't exist
-    Average lines per file is calculated as a double, total lines / total files
-    Output file will be "repo_report.html", in the directory in which the program is executed from.
-        Any existing file at this location will be overwritten
+
+Maven dependencies allowed
+Files with no extension will get classified as filetype="NONE"
+Files are UTF-8 encoded
+Lines are treated as raw strings (ie a line containing only "\t" is NOT a tab and therefore not whitespace)
+Files that don't evaluate to true from either Java.File.isFile() or .isDirectory() are ignored
+If an IOException is throws during file processing, the application will continue processing and calculate its results as if that file didn't exist
+Average lines per file is calculated as a double, total lines / total files
+Output file will be "repo_report.html", in the directory in which the program is executed from.
+Any existing file at this location will be overwritten
 
 Usage:
     java -jar <path_to_jar> <directory_to_eval>
