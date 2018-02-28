@@ -1,0 +1,4 @@
+processor/TestFileProcessor.class
+processor/TestRepoProcessor.class
+processor/TestGitReporterBase.class
+processor/TestDirectoryProcessor.class

@@ -1,0 +1,6 @@
+processor/Main.class
+processor/Utils.class
+processor/HtmlGenerator.class
+processor/FileProcessor.class
+processor/RepoProcessor.class
+processor/DirectoryProcessor.class
